@@ -15,7 +15,7 @@
             <img src='/image/burgerkinglogo.jpg' alt="Burger King Logo">
         </div>
         <ul class="navbar-links">
-            <li><a href="#home">Home</a></li>
+            <li><a href="dashboard">Home</a></li>
             <li><a href="#timeline">Timeline</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#map">Map</a></li>
