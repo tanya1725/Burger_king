@@ -124,6 +124,7 @@
             animation: rain 1s linear infinite;
         }
 
+
         @keyframes rain {
             to {
                 transform: translateY(100vh);
@@ -155,7 +156,7 @@
                 @csrf
                 <input type="email" name="email" placeholder="Enter email" required />
                 <input type="password" name="password" placeholder="Enter password" required />
-                <button type="submit">Submit</button>
+              <button type="submit"><a href="items">submit</a></button>
                <label align=center> no account?</label><a href="register">create one</a>
             </form>
         </div>

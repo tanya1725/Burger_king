@@ -34,7 +34,7 @@ use App\Http\Controllers\UserController;
 
 Route::view("login","login");
 Route::view("items","items");
-Route::view("/","items");
+Route::view("/","dashboard");
 
 Route::view("register","register");
 Route::post("register",[UserController::class,"register"]);

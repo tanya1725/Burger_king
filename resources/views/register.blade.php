@@ -155,7 +155,7 @@
                 @csrf
                 <input type="email" name="email" placeholder="Enter email" required />
                 <input type="password" name="password" placeholder="Enter password" required />
-                <button type="submit">Submit</button>
+                <button type="submit"><a href="items">submit</a></button>
                 <label>already have account</label><a href="login">sign in</a>
             </form>
         </div>
